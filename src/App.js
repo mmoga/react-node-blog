@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import "./SignIn";
 import SignIn from "./SignIn";
 
 class App extends Component {
