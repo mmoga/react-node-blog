@@ -9,6 +9,7 @@ class SignIn extends Component {
           };
         this.handleEmailChange = this.handleEmailChange.bind(this);
         this.handlePasswordChange = this.handlePasswordChange.bind(this);
+        this.signIn = this.signIn.bind(this);
     }
     handleEmailChange(e) {
         this.setState({email:e.target.value})
